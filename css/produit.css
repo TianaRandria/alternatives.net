@@ -93,7 +93,7 @@ header,
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 49px;
   padding-bottom: 60px;
 }
@@ -104,7 +104,6 @@ header,
   font-size: 36px;
   line-height: 44px;
   width: 297px;
-  background-color: #1DBF73;
 }
 @media (max-width: 762px) {
   .site-name {
@@ -288,7 +287,7 @@ header,
 .alternatives-produit-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 86px;
 }
 .alternatives-produit-section .alternatives-produit-column {

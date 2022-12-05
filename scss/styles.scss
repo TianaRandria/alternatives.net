@@ -127,7 +127,7 @@ body{
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-top: 49px;
   padding-bottom: 60px;  
  
@@ -139,7 +139,7 @@ body{
   font-size: 36px;
   line-height: 44px;
   width:297px ;
-  background-color: #1DBF73;
+ 
 
   @media (max-width: 762px) {
     font-size: 35px;
@@ -228,6 +228,9 @@ body{
 .section-header {
   display: flex;
   flex-direction:row;
+  background-color: #C63882;
+  margin:0 auto;
+  
 
   @media (max-width: 320px) {
     display: flex;
@@ -331,8 +334,7 @@ body{
 #categorie{
 width: 1440px;
 height: 593px;
-justify-content: center;
-margin-right:140px;
+margin:0 auto;
 background-color: #134679;
 
 }
@@ -415,6 +417,8 @@ background-color: #134679;
   gap: 14.8px;
   padding-top: 61px;
   background-color: #efde7f;
+  margin:0 auto;
+  width: 100%;
 
   @media (max-width: 320px) {
     display: flex;
