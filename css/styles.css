@@ -22,6 +22,14 @@
   src: url("../assets/fonts/montserrat-v25-latin-700.eot"); /* IE9 Compat Modes */
   src: local(""), url("../assets/fonts/montserrat-v25-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/montserrat-v25-latin-700.woff2") format("woff2"), url("../assets/fonts/montserrat-v25-latin-700.woff") format("woff"), url("../assets/fonts/montserrat-v25-latin-700.ttf") format("truetype"), url("../assets/fonts/montserrat-v25-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
+/* montserrat-500 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("..assets/fonts/montserrat-v25-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("..assets/fonts/montserrat-v25-latin-500.eot?#iefix") format("embedded-opentype"), url("..assets/fonts/montserrat-v25-latin-500.woff2") format("woff2"), url("..assets/fonts/montserrat-v25-latin-500.woff") format("woff"), url("..assets/fonts/montserrat-v25-latin-500.ttf") format("truetype"), url("..assets/fonts/montserrat-v25-latin-500.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
 body {
   font-family: "Montserrat";
 }
@@ -86,7 +94,10 @@ body {
 .site-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 36px;
+  line-height: 44px;
+  width: 297px;
+  background-color: #1DBF73;
 }
 @media (max-width: 762px) {
   .site-name {
@@ -107,8 +118,9 @@ body {
 .search-form {
   display: flex;
   flex-direction: row;
-  width: 410px;
+  width: 644px;
   height: 53px;
+  border-radius: 5px 0px 0px 5px;
 }
 @media (max-width: 762px) {
   .search-form {
@@ -131,12 +143,15 @@ body {
   display: block;
   width: 412px;
   height: 53px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #495057;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-left: 20px;
+  color: #A0A0A0;
+  text-align: center;
   background-color: #fff;
   border: 1px solid #ced4da;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
 }
 @media (max-width: 762px) {
   .search-input {
@@ -152,14 +167,13 @@ body {
 }
 
 .search-btn {
-  font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   width: 235px;
   border: none;
   background: #C63882;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0px;
   color: white;
 }
 @media (max-width: 762px) {
@@ -279,7 +293,9 @@ body {
 }
 
 #categorie {
-  max-width: 1300px;
+  width: 1440px;
+  height: 593px;
+  background-color: #134679;
 }
 
 .categories-section {
@@ -342,15 +358,17 @@ body {
 
 .card {
   border: 1px solid #C8C8C8;
-  border-radius: 5px;
 }
 
 .categories-card-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 10px;
+  width: 1140px;
+  height: 354px;
+  gap: 14.8px;
   padding-top: 61px;
+  background-color: #efde7f;
+  margin: 0 auto;
 }
 @media (max-width: 320px) {
   .categories-card-row {
@@ -380,6 +398,7 @@ body {
   font-size: 14px;
   line-height: 140%;
   color: #868686;
+  background-color: #ff8282;
 }
 .categories-card-row .card {
   display: flex;
