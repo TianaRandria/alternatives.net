@@ -115,48 +115,33 @@ header,
 .site-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  text-transform: lowercase;
-  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 44px;
+  width: 297px;
+  background-color: #1DBF73;
 }
-@media (max-width: 991px) {
+@media (max-width: 762px) {
   .site-name {
     font-size: 35px;
   }
 }
-@media (max-width: 768px) {
-  .site-name {
-    font-size: 30px;
-  }
-}
-@media (max-width: 768px) and (max-width: 576px) {
+@media (max-width: 576px) {
   .site-name {
     font-size: 25px;
   }
 }
-@media (max-width: 768px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .site-name {
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
 .search-form {
   display: flex;
   flex-direction: row;
-  width: 410px;
+  width: 644px;
   height: 53px;
-}
-@media (max-width: 768px) {
-  .search-form {
-    width: 300px;
-    height: 40px;
-  }
-}
-@media (max-width: 992px) {
-  .search-form {
-    width: 310px;
-    height: 43px;
-  }
+  border-radius: 5px 0px 0px 5px;
 }
 @media (max-width: 762px) {
   .search-form {
@@ -174,48 +159,55 @@ header,
     display: none;
   }
 }
-.search-form .search-input {
+
+.search-input {
   display: block;
   width: 412px;
   height: 53px;
+  font-size: 18px;
   font-family: "Montserrat";
-  font-size: 15px;
-  font-weight: 400;
-  color: #495057;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #A0A0A0;
+  text-align: center;
   background-color: #fff;
   border: 1px solid #ced4da;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
 }
-@media (max-width: 767px) {
-  .search-form .search-input {
+@media (max-width: 762px) {
+  .search-input {
     width: 310px;
     height: 43px;
     font-size: 12px;
   }
 }
 @media (max-width: 576px) {
-  .search-form .search-input {
+  .search-input {
     font-size: 9px;
   }
 }
-.search-form .search-btn {
-  font-style: normal;
+
+.search-btn {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   width: 235px;
   border: none;
-  height: 52px;
-  margin: 2px 2px;
   background: #C63882;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0px;
   color: white;
 }
-@media (max-width: 768px) {
-  .search-form .search-btn {
-    width: 250px;
-    height: 40px;
-    font-size: 17px;
+@media (max-width: 762px) {
+  .search-btn {
+    width: 310px;
+    height: 43px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .search-btn {
+    font-size: 9px;
   }
 }
 
@@ -367,15 +359,15 @@ header,
   }
 }
 .article-btn .decouvrir-article {
-  color: white;
+  color: #fff;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 24px;
   text-align: center;
-  width: 200px;
+  width: 234px;
   border: none;
-  width: 339px;
-  height: 55px;
+  margin: 4px 2px;
+  padding: 12px 42px;
   background: #C63882;
   border-radius: 5px;
 }
@@ -411,6 +403,7 @@ header,
     height: 400px;
   }
 }
+
 .footer-row {
   display: flex;
   flex: row;
@@ -418,7 +411,8 @@ header,
   align-items: center;
   height: 332px;
   gap: 80px;
-  background-color: #F9F9F9;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
   .footer-row {
@@ -453,14 +447,8 @@ header,
 
 .footer-title {
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 33px;
-}
-@media (max-width: 320px) {
-  .footer-title {
-    font-size: 28px;
-    width: 100%;
-  }
 }
 
 .footer-texte {
@@ -470,22 +458,22 @@ header,
 }
 @media (max-width: 320px) {
   .footer-texte {
-    margin: 0 auto;
-    font-size: 12px;
-    margin-top: 0px;
     margin-bottom: 50px;
   }
 }
 
 .voir-plus {
-  align-items: flex-start;
-  width: 234px;
-  height: 55px;
-  background-color: #FFE8F4;
   color: #C63882;
-  border-radius: 5px;
-  border: none;
+  font-style: normal;
+  font-weight: bold;
   font-size: 24px;
+  text-align: center;
+  width: 234px;
+  border: none;
+  margin: 4px 2px;
+  padding: 12px 42px;
+  background: #FFE8F4;
+  border-radius: 5px;
 }
 @media (max-width: 762px) {
   .voir-plus {
@@ -503,7 +491,6 @@ header,
 
 .footer-column ul li {
   list-style: none;
-  line-height: 25px;
 }
 @media (max-width: 768px) {
   .footer-column ul li {
@@ -514,12 +501,22 @@ header,
 a {
   text-decoration: none;
   color: #868686;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  line-height: 30px;
 }
 @media (max-width: 768px) {
   a {
     font-size: 14px;
   }
+}
+
+.apropos {
+  color: #000;
+}
+
+.copyright {
+  color: #fff;
 }
 
 .footer-black {

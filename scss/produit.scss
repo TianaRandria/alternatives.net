@@ -101,95 +101,103 @@ header,
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
     margin-top: 49px;
-    padding-bottom: 60px;
-
-    @media (max-width: 576px) {
-        padding-bottom: 0px;
-    }
-}
-
-.site-name {
-    display: flex;
-    font-family: $montserrat;
+    padding-bottom: 60px;  
+   
+  }
+  
+  .site-name { 
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-
-    @media (max-width: 768px) {
-        font-size: 25px;
+    font-size: 36px;
+    line-height: 44px;
+    width:297px ;
+    background-color: #1DBF73;
+  
+    @media (max-width: 762px) {
+      font-size: 35px;
     }
-
-}
-
-.search-form {
+    @media (max-width: 576px) {
+      font-size: 25px;
+   }
+   @media (max-width: 320px) {
+    font-size: 35px;
+  }
+  
+  }
+  
+  
+  .search-form {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-
-}
-
-
-.search-input {
+    width: 644px;
+    height:53px;
+    border-radius: 5px 0px 0px 5px;
+  
+      @media (max-width: 762px) {
+      width: 310px;
+      height:43px;
+      }
+      @media (max-width: 576px) {
+      width: 40%;
+     
+      }
+      @media (max-width: 320px) {
+      display: none;
+   
+  }
+   
+  }
+  
+  
+    .search-input {
     display: block;
     width: 412px;
     height: 53px;
-    padding: .375rem .75rem;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
+    font-size: 18px;
+    font-family: $montserrat;
+    font-weight:500;
+    margin-left: 20px;
+    color: #A0A0A0;
+    text-align:center;
     background-color: #fff;
-    background-clip: padding-box;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-
-    @media (max-width: 768px) {
-        width: 70%;
-        height: 100%;
-
-    }
-
-    @media (max-width: 576px) {
-        display: none;
-    }
-    
-
-
-}
-
-.search-btn {
+    border-radius: 5px 0px 0px 5px;
   
-    font-style: normal;
+    @media (max-width: 762px) {
+      width: 310px;
+      height:43px;
+      font-size: 12px;
+      }
+      @media (max-width: 576px) {
+        font-size: 9px;
+       
+     }
+  
+    }
+    .search-btn {
+  
     font-weight: 700;
     font-size: 24px;
     text-align: center;
-    width: 200px;
+    width: 235px;
     border: none;
     background: $primary_color;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0px;
     color: white;
-
-    @media (max-width: 768px) {
-        font-size: 20px;
-
+  
+    @media (max-width: 762px) {
+      width: 310px;
+      height:43px;
+      font-size: 12px;
+      text-align: center;
+      }
+      @media (max-width: 576px) {
+        font-size: 9px;
+        
+     }
     }
-
-    @media (max-width: 576px) {
-        font-size: 16px;
-
-    }
-    @media (max-width: 576px) {
-        display: none;
-
-    }
-
-
-
-}
-
 
 
 .section-header {
@@ -337,16 +345,16 @@ header,
 
         .voir-plus {
             color: $primary_color;
-          
-            background: $secondary-color;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            text-align: center;
-            width: 234px;
-            height: 54px;
-            border: none;
-            border-radius: 5px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      width: 200px;
+      border: none;
+      margin: 4px 2px;
+      padding: 12px 42px;
+      background: $secondary-color;
+      border-radius: 5px;
 
             @media (max-width: 768px) {
                 font-size: 14px;
@@ -576,10 +584,9 @@ header,
     
     @media (max-width: 768px) {
     height: 400px;
+      
     }
-    @media (max-width: 320px) {
-        width: 80%;
-        }
+    
   
   }
   
@@ -590,7 +597,10 @@ header,
     align-items: center;
     height: 332px;
     gap: 80px;
-    background-color: #F9F9F9;
+    max-width: 1300px;
+    margin: 0 auto;
+  
+  
   
     @media (max-width: 768px) {
       flex-flow: row;
@@ -598,7 +608,7 @@ header,
       gap: 0%;  
     }
     @media (max-width: 320px) {
-     display: flex;
+      display: flex;
      flex-direction: column;
      margin: 50px;
      align-items: center;
@@ -607,6 +617,8 @@ header,
      margin-bottom: 100px;
      gap: 0px;
      
+  
+  
     }
   
   }
@@ -615,6 +627,7 @@ header,
     display: flex;
     flex-direction: column;
     gap: 30px;
+   
     @media (max-width: 768px) {
       margin-left: 3%;
     }
@@ -623,37 +636,34 @@ header,
   
   .footer-title {
     font-family: $poppins, sans-serif;
-    font-weight: bold;
-    font-size: 33px;
-    @media (max-width: 320px){
-        font-size: 23px;
-        
-      }
+    font-weight: 700;
+    font-size: 33px; 
+    
   }
   
   .footer-texte {
-    font-family: $poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #868686;
-    
     @media (max-width: 320px){
-        font-size: 12px;
-        margin-top: 0px;
-        margin-bottom: 50px;
-        
-      }
-    
+      margin-bottom: 50px;
+    }
+  
   }
   
   .voir-plus {
-    align-items: flex-start;
-    width: 234px;
-    height: 55px;
-    background-color: #FFE8F4;
-    color: #C63882;
-    border-radius: 5px;
-    border: none;
-    font-size: 24px;
+      color: $primary_color;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        width: 200px;
+        border: none;
+        margin: 4px 2px;
+        padding: 12px 42px;
+        background: $secondary-color;
+        border-radius: 5px;
+    
   
     @media (max-width: 762px) {
       width: 155px;
@@ -679,6 +689,7 @@ header,
     color: #868686;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    line-height: 30px;
     @media (max-width: 768px) {
       font-size: 14px;
       }
@@ -686,6 +697,10 @@ header,
   
   .apropos {
     color: #000;
+  }
+
+  .copyright{
+    color:#fff;
   }
   
   .footer-black {
@@ -697,9 +712,8 @@ header,
     height: 68px;
     margin-bottom: 20px;
     background-color: #000;
-    font-family: $poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
-
     @media (max-width: 768px) {
       margin-top: 10%;
       }
