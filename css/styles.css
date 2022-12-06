@@ -418,6 +418,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   margin-top: 56px;
+  color: #000;
 }
 @media (max-width: 576px) {
   .categories-card-row .title-categ {
@@ -621,7 +622,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.alternatives-card-row .first-colmun-box-1 .title_alternatives {
+.alternatives-card-row .first-colmun-box-1 .title-alternatives {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;

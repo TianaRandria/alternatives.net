@@ -418,6 +418,8 @@ body {
   .categories-column {
     display: flex;
     flex-direction: column;
+
+    
     
     .categories-title {
 
@@ -509,6 +511,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     margin-top: 56px;
+    color: #000;
 
     @media (max-width: 576px) {
       font-size: 15px;
@@ -752,7 +755,7 @@ body {
 
     }
 
-    .title_alternatives {
+    .title-alternatives {
 
       font-style: normal;
       font-weight: 700;
