@@ -599,7 +599,7 @@ body {
 
 
 
-
+/********************************************/
 
 .alternatives-demandes {
     display: flex;
@@ -621,15 +621,20 @@ body {
 }
 
 
-.alternatives-section {
+
+
+
+
+
+
+.alternatives-article-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 86px;
-  background-color: #868686;
+  background-color: #b5bfcc;
   width:1159px;
   margin: 0 auto;
-
 
 }
 
@@ -688,13 +693,28 @@ body {
 
 // alternatives card row
 .nouvelles-alternatives {
-  max-width: 1440px;
-  padding-bottom: 100px;
+  display: flex;
+    flex-direction: row;
+    padding-top: 86px;
+    max-width: 1440px;
+    height: 744px;
+    margin: 0 auto;
+  background-color: goldenrod;
 
   @media (max-width: 762px) {
     padding-bottom: 10%;
 
   }
+}
+.alternatives-article-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 86px;
+  background-color: #3683e8;
+  margin: 0 auto;
+  width:1159px;
+  
 }
 
 .alternatives-card-row {
@@ -705,6 +725,7 @@ body {
   padding-top: 50px;
   max-width: 1440px;
   margin: 0 auto;
+  background-color: #77daac;
 
   @media (max-width: 320px) {
     padding-bottom: 10%;
