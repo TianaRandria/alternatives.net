@@ -389,7 +389,6 @@ body {
   border: 1px solid #C8C8C8;
   width: 360px;
   height: 77px;
-  background-color: darkred;
 }
 
 .categories-card-row {
@@ -402,7 +401,6 @@ body {
   max-width: 1159px;
   height: 358px;
   margin: 0 auto;
-  background-color: #716b68;
 }
 @media (max-width: 320px) {
   .categories-card-row {
@@ -441,9 +439,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 273.92px;
-  height: 354px;
-  background-color: #17bed8;
+  background-color: #8FF1FF;
 }
 .categories-card-row .card .icon-fleche {
   float: right;
