@@ -160,7 +160,7 @@ header,
   font-weight:500;
   margin-left: 20px;
   color: #A0A0A0;
-  text-align:center;
+  text-align:left;
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 5px 0px 0px 5px;
@@ -181,6 +181,7 @@ header,
   font-weight: 700;
   font-size: 24px;
   text-align: center;
+  line-height: 2;
   width: 235px;
   border: none;
   background: $primary_color;

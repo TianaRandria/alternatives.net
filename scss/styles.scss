@@ -118,22 +118,7 @@ body {
   background-color: $bg;
 }
 
-/*.banner {
-  background-color: $bg;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
- 
 
-  @media (max-width: 1200px) {
-     width: 100%;
-  }
-  @media (max-width: 320px) {
-    margin : 0px;
-    height: 800px;     
- }
-   
-}*/
 
 .header-personnage {
   width: 393px;
@@ -171,11 +156,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 49px;
   padding-bottom: 60px;
   max-width: 1159px;
-  margin: 0 auto;
-  background-color: #8FF1FF;
+  margin: 0 auto ;
+  
 
 }
 
@@ -234,9 +218,8 @@ body {
   font-size: 18px;
   font-family: $montserrat;
   font-weight: 500;
-  margin-left: 20px;
   color: #A0A0A0;
-  text-align: center;
+  text-align:left;
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 5px 0px 0px 5px;
@@ -258,12 +241,14 @@ body {
 
   font-weight: 700;
   font-size: 24px;
+  line-height: 2;
   text-align: center;
   width: 235px;
   border: none;
   background: $primary_color;
   border-radius: 0 5px 5px 0px;
   color: white;
+  
 
   @media (max-width: 762px) {
     width: 310px;
@@ -284,7 +269,7 @@ body {
   justify-content: space-evenly;
   max-width: 1159px;
   margin: 0 auto;
-  background-color: #1DBF73;
+  
 
   @media (max-width: 320px) {
     display: flex;
@@ -305,7 +290,7 @@ body {
       height: 121px;
       font-weight: 700px;
       font-size: 48px;
-      background-color: #8FF1FF;
+     
 
       @media (max-width: 762px) {
         font-size: 38px;
@@ -408,7 +393,7 @@ body {
   padding-top: 86px;
   max-width: 1159px;
   margin: 0 auto;
-  background-color: #ced4da;
+ 
 
   @media (max-width: 320px) {
     display: flex;
@@ -476,7 +461,6 @@ body {
   border: 1px solid #C8C8C8;
   width: 360px;
   height: 77px;
-  background-color: darkred;
   
 }
 
@@ -491,10 +475,7 @@ body {
   max-width: 1159px;
   height: 358px;
   margin: 0 auto;
-  background-color: #716b68;
-
-
-  
+ 
   @media (max-width: 320px) {
     display: flex;
     flex-direction: column;
@@ -529,8 +510,7 @@ body {
     font-size: 14px;
     margin-top: 20px;
     line-height: 140%;
-    color: #868686;
-    background-color: #ffbe8f;
+    
   }
 
   .card {
@@ -539,9 +519,7 @@ body {
     padding: 20px;
     width: 273.92px;
     height: 354px;
-    background-color: #17bed8;
-
-
+  
     .icon-fleche {
       float: right;
       margin-top: 20%;
@@ -600,17 +578,12 @@ body {
 }
 
 
-
-
-/********************************************/
-
 .alternatives-demandes {
     display: flex;
     flex-direction: row;
     padding-top: 86px;
     max-width: 1440px;
     height: 744px;
-    background-color: rgb(66, 32, 192);
     margin: 0 auto;
 
     
@@ -620,14 +593,7 @@ body {
   
     }
 
-
 }
-
-
-
-
-
-
 
 
 .alternatives-article-1 {
@@ -635,7 +601,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 86px;
-  background-color: #b5bfcc;
   width:1159px;
   margin: 0 auto;
 
@@ -653,8 +618,6 @@ body {
     font-size: 36px;
     line-height: 100.8%;
     color: $color-text1;
-
-
   }
 
   .alternatives-texte {
@@ -702,7 +665,7 @@ body {
     max-width: 1440px;
     height: 744px;
     margin: 0 auto;
-  background-color: goldenrod;
+  
 
   @media (max-width: 762px) {
     padding-bottom: 10%;
@@ -714,7 +677,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 86px;
-  background-color: #3683e8;
+  
   margin: 0 auto;
   width:1159px;
   
@@ -728,7 +691,7 @@ body {
   padding-top: 50px;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #77daac;
+ 
 
   @media (max-width: 320px) {
     padding-bottom: 10%;
@@ -739,12 +702,17 @@ body {
   .first-colmun-box-1 {
     padding: 10px;
     display: flex;
+    justify-content:flex-start;
     gap: 17px;
     width: 360px;
+    height: 77px;
+    border-radius: 2px;
+    color: #C8C8C8;
+    
 
     .icon-vert {
-      width: 40px;
-      height: 40px;
+      width: 48px;
+      height: 49px;
       background-color: #1DBF73;
       border-radius: 5px;
       display: flex;
@@ -760,7 +728,7 @@ body {
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
-      line-height: 22px;
+      line-height:0px;
       color: #000000;
 
     }
@@ -771,16 +739,11 @@ body {
       font-weight: 400;
       font-size: 13px;
       line-height: 140%;
-      color: #868686;
-
 
     }
   }
 
 }
-
-
-
 
 
 
