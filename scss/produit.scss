@@ -54,8 +54,8 @@ body{
     display: flex;
     justify-content: center;
     background-color: $bg;
+    
    
-
     @media (max-width: 1200px) {
         background-size: 100%;
     }
@@ -80,7 +80,7 @@ body{
     }
 }
 
-.produit-container,
+
 
 #categorie,
 #produit-alternatives,
@@ -102,13 +102,18 @@ body{
 }
 
 //style pour navbar
+.container{
+   
+
+}
 .navbar {
+    
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    margin-top: 49px;
-    padding-bottom: 60px;  
-    background-color: #d2d900;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    max-width: 1159px;
+    margin: 0 auto ;
    
   }
   
@@ -210,8 +215,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
     width: 1159px;
-    background-color: #1DBF73;
-
     
     @media (max-width: 576px) {
         flex-direction: column;
@@ -309,6 +312,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 86px;
+    margin: 0 auto;
+    max-width: 1159px;
 
     .alternatives-produit-column {
         display: flex;
@@ -384,6 +389,8 @@ body{
     display: flex;
     gap: 140px;
     line-height: 3;
+    margin: 0 auto;
+    max-width: 1159px;
 
     @media (max-width: 768px) {
         flex-direction: column;

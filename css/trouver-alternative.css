@@ -110,6 +110,8 @@ header,
   justify-content: space-around;
   margin-top: 49px;
   padding-bottom: 60px;
+  max-width: 1159px;
+  margin: 0 auto;
 }
 
 .site-name {
@@ -118,7 +120,6 @@ header,
   font-size: 36px;
   line-height: 44px;
   width: 297px;
-  background-color: #1DBF73;
 }
 @media (max-width: 762px) {
   .site-name {
@@ -253,10 +254,11 @@ header,
 }
 
 .alternative-blog-row {
-  margin: 0 140px;
   display: flex;
   flex-flow: row;
   height: 80px;
+  margin: 0 auto;
+  max-width: 1159px;
 }
 .alternative-blog-row .blog {
   font-style: normal;
@@ -298,7 +300,8 @@ header,
 .blog-article-alternative {
   max-width: 1822px;
   line-height: 60px;
-  margin: 0 140px;
+  max-width: 1159px;
+  margin: 0 auto;
 }
 .blog-article-alternative .title-article-1 {
   font-style: normal;
@@ -322,10 +325,9 @@ header,
 .article-btn {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  max-width: 1300px;
-  padding: 60px;
+  max-width: 1159px;
   margin: 0 auto;
+  padding: 60px;
 }
 .article-btn .voir-plus-article {
   color: #C63882;
