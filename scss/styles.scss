@@ -116,9 +116,9 @@ body {
   width: 100%;
   display: flex;
   background-color: $bg;
+
+  @media (max-width:992px){max-width: 100%; }
 }
-
-
 
 .header-personnage {
   width: 393px;
@@ -363,6 +363,12 @@ body {
   background-color: white;
   padding-bottom: 105px;
 
+  @media (max-width:992px){
+    display: flex;
+    justify-content: center;
+    max-width:992px;
+    
+  }
   @media (max-width: 576px) {
     font-size: 12px;
   }
@@ -382,8 +388,6 @@ body {
   width: 1440px;
   height: 593px;
   margin: 0 auto;
-  
-
 }
 
 .categories-section {
@@ -393,8 +397,9 @@ body {
   padding-top: 86px;
   max-width: 1159px;
   margin: 0 auto;
- 
+  
 
+  @media(max-width:992px){justify-content:space-around;}
   @media (max-width: 320px) {
     display: flex;
     flex-direction: column;
@@ -473,8 +478,13 @@ body {
   gap: 20px;
   padding-top: 61px;
   max-width: 1159px;
-  height: 358px;
   margin: 0 auto;
+  
+@media(max-width:992px)
+{ display: flex;
+  justify-content: center;
+  align-items: center; 
+}
  
   @media (max-width: 320px) {
     display: flex;
@@ -519,6 +529,8 @@ body {
     padding: 20px;
     width: 273.92px;
     height: 354px;
+    @media(max-width:992px){width:180px;}
+
   
     .icon-fleche {
       float: right;
@@ -569,7 +581,6 @@ body {
       align-items: center;
       width: 50px;
       height: 50px;
-      background-color: #8FF1FF;
       border-radius: 5px;
 
 
@@ -585,8 +596,14 @@ body {
     max-width: 1440px;
     height: 744px;
     margin: 0 auto;
-
     
+    @media (max-width:992px){
+      display: flex;
+      justify-content: center;
+      max-width:992px;
+   
+    }
+
   @media (max-width: 762px) {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -603,7 +620,8 @@ body {
   padding-top: 86px;
   width:1159px;
   margin: 0 auto;
-
+  @media(max-width:992px){justify-content:space-around;}
+  
 }
 
 
@@ -666,21 +684,23 @@ body {
     height: 744px;
     margin: 0 auto;
   
-
-  @media (max-width: 762px) {
-    padding-bottom: 10%;
-
+  @media (max-width:992px){
+    display: flex;
+    justify-content: center;
+    max-width:992px;
+  
   }
+  @media (max-width:1200px){margin-top:120px}
+  @media (max-width: 762px) {padding-bottom: 10%;}
 }
 .alternatives-article-2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 86px;
-  
   margin: 0 auto;
   width:1159px;
-  
+  @media(max-width:992px){justify-content:space-around;}
 }
 
 .alternatives-card-row {
@@ -691,8 +711,8 @@ body {
   padding-top: 50px;
   max-width: 1440px;
   margin: 0 auto;
- 
-
+  
+  
   @media (max-width: 320px) {
     padding-bottom: 10%;
     margin-left: 15%;
@@ -747,8 +767,6 @@ body {
 
 
 
-
-
 /* Footer*/
 
 
@@ -757,12 +775,9 @@ body {
   height: 400px;
   background-color: #F9F9F9;
   margin-top: 50px;
-
-  @media (max-width: 768px) {
-    height: 400px;
-
-  }
-
+  
+  @media (max-width: 1200px) {margin-top: 30%;}
+  @media (max-width: 768px) {height: 400px;}
 
 }
 
@@ -775,8 +790,6 @@ body {
   gap: 80px;
   max-width: 1300px;
   margin: 0 auto;
-
-
 
   @media (max-width: 768px) {
     flex-flow: row;
@@ -794,8 +807,6 @@ body {
     margin-bottom: 100px;
     gap: 0px;
 
-
-
   }
 
 }
@@ -805,10 +816,7 @@ body {
   flex-direction: column;
   gap: 30px;
 
-  @media (max-width: 768px) {
-    margin-left: 3%;
-  }
-
+  @media (max-width: 768px) {margin-left: 3%;}
 }
 
 .footer-title {
@@ -822,7 +830,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #868686;
-
+  @media (max-width: 1200px) {margin-top:30px;}
   @media (max-width: 320px) {
     margin-bottom: 50px;
   }
@@ -858,9 +866,7 @@ body {
 .footer-column ul li {
   list-style: none;
 
-  @media (max-width: 768px) {
-    width: 100%;
-  }
+  @media (max-width: 768px) {width: 100%;}
 }
 
 a {
@@ -895,11 +901,7 @@ a {
   font-family: 'Poppins', sans-serif;
   color: #fff;
 
-  @media (max-width: 768px) {
-    margin-top: 10%;
-  }
-
-  @media (max-width: 320px) {
-    display: none;
-  }
+  @media (max-width:200){width: 100%;}
+  @media (max-width: 768px) {margin-top: 10%;}
+  @media (max-width: 320px) {display: none;}
 }
