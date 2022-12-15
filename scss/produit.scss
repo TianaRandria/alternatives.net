@@ -132,12 +132,12 @@ body {
 
 }
 
-.container {
+.header-container {
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-
+  
 }
 
 h1,
@@ -175,6 +175,8 @@ h2,
     }
 }
 
+
+
 .produit-banner {
     display: flex;
     justify-content: center;
@@ -191,7 +193,7 @@ h2,
         background-color: #fff;
     }
 
-    .image-acceuil {
+    .image-acceuil-produit {
         width: 595px;
 
 
@@ -367,12 +369,11 @@ h2,
 }
 
 
-.section-header {
+.produit-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1159px;
-
 
     @media (max-width:768px) {
         width: 100%;
@@ -615,7 +616,7 @@ h2,
 
 
 
-        .description {
+        .descriptionColumn {
             font-family: $montserrat;
             font-style: normal;
             font-weight: 600;
