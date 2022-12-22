@@ -922,7 +922,9 @@ a {
   width: 100%;
 }
 
-/*mediaqueries*/
+/********************************************/
+/******************************************/
+/**MEDIA QUERIES///////////*/
 @media only screen and (max-width: 280px) {
   body {
     width: 100%;
@@ -987,89 +989,30 @@ a {
   .categorie-texte {
     margin-left: 5%;
   }
-}
-.categorie-column .categorie-texte {
-  margin-left: 5%;
-}
-
-.categories-list-item {
-  min-width: 152px;
-}
-
-/*section alternative*/
-#alternatives-demandes {
-  margin-top: -100px;
-}
-
-.alternatives-demandes {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.alternatives-article-1 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin-top: 0;
-}
-
-.alternatives-column .alternatives-title {
-  font-size: 24px;
-  line-height: 1;
-  margin-left: 5%;
-}
-
-.nouvelles-alternatives {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.alternatives-article-2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin-top: 0;
-}
-
-.alternatives-column {
-  margin-left: 5%;
-  margin-left: 5%;
-}
-
-#alternatives {
-  margin-top: -100px;
-}
-
-/*footer*/
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.footer-title {
-  font-size: 24px;
-  width: 80%;
-  margin-left: 9.5%;
-  margin-top: 30%;
-}
-
-.footer-texte {
-  width: 80%;
-  margin-left: 10%;
-}
-
-.footer-btn {
-  margin-left: 10%;
-}
-
-#footer-center {
-  width: 100%;
-}
-
-#footer-right {
-  width: 100%;
-  margin-top: -40px;
+  .categorie-column .categorie-texte {
+    margin-left: 5%;
+  }
+  .categories-list-item {
+    min-width: 152px;
+  }
+  /*section alternative*/
+  #alternatives-demandes {
+    margin-top: -100px;
+  }
+  .alternatives-demandes {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .alternatives-article-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 0;
+  }
+  .alternatives-column .alternatives-title {
+    font-size: 24px;
+    line-height: 1;
+    margin-left: 5%;
+  }
 }/*# sourceMappingURL=index.css.map */
